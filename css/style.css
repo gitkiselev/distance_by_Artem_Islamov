@@ -42,7 +42,7 @@ body {
     margin-left: 12px;
 }
 .m-menu .line {
-    width: 100%;
+    width: 32px;
     height: 1px;
     background-color: #fff;
 }
@@ -280,7 +280,7 @@ body {
     background: #F5F5F5;
     border-radius: 48px;
     border: none;
-    padding: 9px 12px;
+    padding: 8px 12px;
     display: flex;
     align-items: center;
     margin-right: 8px;
@@ -293,9 +293,11 @@ body {
 }
 .tag-icon:last-child {
     margin-right: 0;
-    padding: 10px 12px;
+    padding: 10px 4px;
 }
 .button-text {
+    font-size: 14px;
+    line-height: 22px;
     color: #595959;
 }
 .post {
@@ -311,6 +313,7 @@ body {
     margin-bottom: 16px;
 }
 .post-header-button {
+    cursor: pointer;
     background-color: #fff;
     border: none;
     outline: none;
@@ -388,6 +391,7 @@ body {
     justify-content: space-around;
 }
 .post-button {
+    cursor: pointer;
     background-color: #fff;
     border: none;
     outline: none;
@@ -565,6 +569,7 @@ body {
     color: #8C8C8C;
 }
 .person-page-button {
+    cursor: pointer;
     border: none;
     background-color: #fff;
     outline: none;
